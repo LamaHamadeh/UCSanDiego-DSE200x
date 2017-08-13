@@ -82,7 +82,9 @@ print('-------------------------------------')
 
 #Data Visulisation
 #-------------------
-plt.scatter(x=Doc['year'],y=Doc['rating'],color = 'blue')
+fig = plt.figure()
+ax = fig.add_subplot(111)  
+ax.scatter(x=Doc['year'],y=Doc['rating'],color = 'blue')
 plt.title('Documentary Movies Rating From 1894 Until 2015')
 plt.xlabel('Year')
 plt.ylabel('Rating')
