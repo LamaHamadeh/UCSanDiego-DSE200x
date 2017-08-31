@@ -143,5 +143,5 @@ plt.title('Normal Histogram')
 #axes to inspect the tail of the distribution.
 plt.figure()
 plt.hist(sorted_word_counts, bins=50, log=True)
-plt.title('Semilogarithmic Histogram', color = 'Red')
+plt.title('Semilogarithmic Histogram')
 #--------------------
