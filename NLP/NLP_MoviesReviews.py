@@ -145,3 +145,21 @@ plt.figure()
 plt.hist(sorted_word_counts, bins=50, log=True)
 plt.title('Semilogarithmic Histogram')
 #--------------------
+
+#Naive Bayes Classifier
+
+#One of the simplest supervised machine learning classifiers is the Naive Bayes
+# Classifier
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------------
