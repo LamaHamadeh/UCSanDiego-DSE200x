@@ -200,4 +200,3 @@ print(nltk.classify.util.accuracy(sentiment_classifier, positive_features[split:
 print(sentiment_classifier.show_most_informative_features())
 
 #--------------------
-
