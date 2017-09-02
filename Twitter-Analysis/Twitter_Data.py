@@ -39,10 +39,10 @@ import os
 
 if not os.path.exists('secret_twitter_credentials.pkl'):
     Twitter = {}
-    Twitter['Consumer Key'] = '3JJ8S521zuqupoQzywg7hiDYW'
-    Twitter['Consumer Secret'] = '3yxEOkwH2BrfSVTPfRRJHg9FapcBN9trbKgWAiArKlPUfRvvUf'
-    Twitter['Access Token'] = '239865876-hcejIx7q8uk9DB2m63GfCcI1hxBy7aDisq8iPvKG'
-    Twitter['Access Token Secret'] = 'dYs1u1ZmushHCLpE89aPEQIhNVLioB8ZCMe2VLpfCAMAk'
+    Twitter['Consumer Key'] = ''
+    Twitter['Consumer Secret'] = ''
+    Twitter['Access Token'] = ''
+    Twitter['Access Token Secret'] = ''
     with open ('secret_twitter_credentials.pkl', 'wb') as f:
         pickle.dump(Twitter, f)
 else:
